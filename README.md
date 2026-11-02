@@ -1,23 +1,19 @@
-# A Luz do Mariri — Laboratório V9
+# A Luz do Mariri — Laboratório V10
 
-Laboratório independente para GitHub Pages. Substitua `index.html` e `README.md` na raiz do repositório `laboratorio-mariri`.
+Evolução incremental da V9.
 
-## Novidades
-- Jornada com um único Guia inicial; outros Guias são obtidos por Baú Épico de Guias.
-- Missões principais sequenciais e conquistas paralelas com baús resgatáveis.
-- Baús de Prata, Ouro, Épico e Diamante; repetição de Guia dá 10 pontos de vínculo.
-- Talentos por Guia em três camadas com efeito no ataque.
-- Construção com cronômetro hh:mm:ss e token de aceleração.
-- Enfermaria com tempo de recuperação e token próprio.
-- Marcadores de equipe exibem número de combatentes e barra de Vitalidade do Guia.
-- Recursos abundantes no modo laboratório; regras de capacidade preservadas.
+## Alterações
+- Formação de aprendizes leva tempo real e não libera aprendizes imediatamente. Cada escola possui uma formação por vez; o contador persiste no navegador.
+- Nova aba **Guias**, com níveis, experiência, estado de recrutamento e acesso à árvore de talentos.
+- Mais criaturas espalhadas pelo mapa, com níveis escalados ao Instituto e ajustados conforme ele evolui.
+- Salvamento local separado da V9.
 
-## Testes recomendados
-1. Reiniciar V9 e escolher Jornada.
-2. Confirmar apenas um Guia disponível.
-3. Completar e resgatar missões/conquistas, abrir Baú Épico.
-4. Verificar recrutamento e duplicata (+10 pontos de vínculo).
-5. Distribuir talentos e observar poder por ciclo.
-6. Construir, acelerar e recuperar na Enfermaria.
+## Publicação
+Substitua `index.html` e `README.md` no repositório GitHub Pages. Atualize a página com Ctrl+F5.
 
-Os números e probabilidades ainda são de laboratório e devem ser balanceados antes de publicação definitiva.
+## Testes
+1. Na aba Escolas, inicie a formação e confirme que a quantidade de aprendizes só cresce ao terminar o cronômetro.
+2. Abra Guias e confira quais personagens estão recrutados e seus pontos de talento.
+3. Evolua o Instituto e inspecione criaturas no mapa para comparar os níveis.
+
+**Atenção:** protótipo de navegador. Testar regras, sincronização e balanceamento antes de integrar à versão principal.
