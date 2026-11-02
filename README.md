@@ -1,19 +1,21 @@
-# A Luz do Mariri — Laboratório V10
+# A Luz do Mariri — Laboratório V11
 
-Evolução incremental da V9.
+Versão experimental independente, baseada no laboratório V10, com visual inspirado no painel aprovado.
 
-## Alterações
-- Formação de aprendizes leva tempo real e não libera aprendizes imediatamente. Cada escola possui uma formação por vez; o contador persiste no navegador.
-- Nova aba **Guias**, com níveis, experiência, estado de recrutamento e acesso à árvore de talentos.
-- Mais criaturas espalhadas pelo mapa, com níveis escalados ao Instituto e ajustados conforme ele evolui.
-- Salvamento local separado da V9.
+## Recursos disponíveis
 
-## Publicação
-Substitua `index.html` e `README.md` no repositório GitHub Pages. Atualize a página com Ctrl+F5.
+- Alternância entre mapa do Instituto e mapa de exploração, com mapa externo e batalhas cooperativas preservados.
+- Posicionamento em grade de novos prédios no Instituto, construção com cronômetro e pré-requisitos iniciais.
+- Plantação de Mariri, plantação de Chacrona e minas produtivas: até quatro unidades de cada conforme o nível do Instituto (1, 7, 12, 18).
+- Pesquisas em árvore tecnológica com requisitos, custos, cronômetro persistente e token de aceleração.
+- Evolução do Instituto com tempo de obra.
+- Fichas dos 16 Guias com elemento, papel, especialidade, poder supremo, descrição e aplicação recomendada.
+- Missões, baús, escolas, enfermaria, talentos e exploração da V10 mantidos.
 
-## Testes
-1. Na aba Escolas, inicie a formação e confirme que a quantidade de aprendizes só cresce ao terminar o cronômetro.
-2. Abra Guias e confira quais personagens estão recrutados e seus pontos de talento.
-3. Evolua o Instituto e inspecione criaturas no mapa para comparar os níveis.
+## Instalação
 
-**Atenção:** protótipo de navegador. Testar regras, sincronização e balanceamento antes de integrar à versão principal.
+Substitua `index.html` e `README.md` no mesmo repositório GitHub Pages. Nenhuma dependência externa é necessária.
+
+## Observações do laboratório
+
+O mapa do Instituto usa ícones e células leves; é um protótipo interativo, não os gráficos finais da referência visual. A interface de tecnologia é uma primeira implementação e os tempos estão reduzidos para teste. O salvamento da V11 é independente das versões anteriores.
