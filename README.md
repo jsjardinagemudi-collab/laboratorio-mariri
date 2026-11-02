@@ -1,28 +1,20 @@
-# A Luz do Mariri — Laboratório V4
+# A Luz do Mariri — Laboratório V5
 
-Protótipo independente para testes de equipes simultâneas, exploração e combate cooperativo no mapa.
+Protótipo independente para GitHub Pages.
 
-## Como publicar
+## Publicação
+Substitua `index.html` e `README.md` na raiz do repositório `laboratorio-mariri`, faça commit e aguarde o GitHub Pages.
 
-Substitua `index.html` e `README.md` na raiz do repositório `laboratorio-mariri` do GitHub. Mantenha o GitHub Pages apontado para a branch `main` e pasta `/ (root)`.
+## Novidades
+- Equipes numeradas e identificadas por elemento no mapa.
+- Ao clicar em uma criatura: Ir até aqui / Atacar / Explorar.
+- Ao escolher mover ou atacar: selecionar equipe já existente ou preparar nova (havendo vaga).
+- Opção Permanecer no local após combate; desmarcando, retorna ao Instituto.
+- Modo de teste para até 5 equipes sem alterar a progressão normal do Instituto.
+- Defesa automática e combate cooperativo mantidos da V4.
+- Salvamento independente da V4.
 
-## Como testar
+## Teste sugerido
+Ative Modo de teste em Equipes, clique em uma criatura, escolha Atacar, prepare uma nova equipe e envie outra equipe contra o mesmo alvo.
 
-1. Abra o jogo, selecione a equipe e clique no mapa para explorar a névoa.
-2. Clique numa criatura revelada: **Ir até aqui**, **Atacar** ou **Explorar**.
-3. Em **Equipes**, monte novas equipes quando o nível do Instituto permitir. Aprendizes são formados nas **Escolas**.
-4. Em **Batalhas**, acompanhe o dano do Guia e dos aprendizes e use o Supremo quando a Harmonia chegar a 100.
-5. Envie outra equipe para o mesmo alvo para testar a cooperação.
-
-## Regras do laboratório
-
-- Não existe botão Defender. A defesa e as habilidades comuns são automáticas.
-- O Poder Supremo é manual por padrão, com opção automática.
-- Cada equipe tem um Guia e aprendizes por elemento. A capacidade cresce com o nível do Guia.
-- O Instituto libera até cinco equipes ao longo dos seus níveis.
-- O deslocamento e a revelação da névoa não consomem Chacrona.
-- Salvamento automático no navegador em uma chave exclusiva da V4.
-
-## Limitações
-
-Balanceamento e IA simplificados; combate ocorre por ciclos de simulação, sem animação de personagens ou pathfinding com obstáculos. Este é um laboratório de mecânicas, não a versão V6/V7 do jogo principal.
+**Nota:** laboratório de mecânicas com visual simplificado; não modifica V6/V7.
