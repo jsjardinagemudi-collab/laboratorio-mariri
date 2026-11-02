@@ -1,21 +1,17 @@
-# A Luz do Mariri — Laboratório V1
+# A Luz do Mariri — Laboratório V2
 
-Protótipo independente para testar exploração com névoa, Companhias de Jornada, quatro Escolas Elementais, 16 guias, formação de aprendizes, batalhas cooperativas por turnos, Harmonia, XP, recursos e salvamento local.
+Protótipo independente do jogo principal V6/V7.
 
-## Como testar
+## Publicação no GitHub Pages
+Substitua o arquivo `index.html` da raiz do repositório `laboratorio-mariri` por este `index.html` e, se desejar, substitua também o `README.md`. Faça commit e aguarde a atualização do GitHub Pages.
 
-1. Abra `index.html` em Chrome, Edge ou Firefox (computador ou celular).
-2. Em **Companhia**, selecione até quatro guias e observe seus níveis.
-3. Em **Escolas**, treine aprendizes usando recursos.
-4. Clique em uma nuvem adjacente ao território descoberto ou em **Explorar próximo**.
-5. Se encontrar uma criatura, vá a **Batalha** e use Canalizar, Proteger, Restaurar e Supremo.
-6. Veja a progressão em **Progresso**. O navegador salva automaticamente via `localStorage`.
+## Testes
+- Clique em qualquer ponto do mapa: a Companhia caminha e revela névoa gratuitamente.
+- Descubra florestas, rios, minas e encontros.
+- Combate automático: Atacar, Defender, Recuar e Poder Supremo manual/automático.
+- Escolha até quatro Guias e treine aprendizes nas Escolas.
+- Equipe instrumentos na aba Equipamentos.
+- O progresso é salvo no localStorage do navegador, com chave exclusiva da V2.
 
-## Escopo e limitações
-
-- Não substitui nem modifica as versões V6/V7. É um laboratório isolado.
-- Os 16 personagens estão cadastrados, mas o combate utiliza papéis simplificados e não implementa ainda os 128 poderes individuais, equipamentos completos nem árvores detalhadas.
-- Inclui 4 criaturas comuns, 1 Guardião Regional e 1 Chefe Ancestral como amostra do bestiário de 30.
-- Não possui servidor, login, multiplayer ou arte oficial embutida. Visual é provisório.
-- Balanceamento, geração de encontros e recompensas são experimentais.
-- O conteúdo educativo do pergaminho ainda será desenvolvido e revisado.
+## Limites desta V2
+Este é um protótipo de mecânicas, não o jogo final. Animações são simbólicas; equipamentos e poderes têm efeitos simplificados; algumas criaturas e conteúdos ainda serão ampliados. O arquivo é autossuficiente (HTML/CSS/JS embutidos).
