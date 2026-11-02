@@ -1,16 +1,23 @@
-# A Luz do Mariri — Laboratório V8
+# A Luz do Mariri — Laboratório V9
 
-Abra `index.html` localmente ou publique no GitHub Pages. Sem bibliotecas externas.
+Laboratório independente para GitHub Pages. Substitua `index.html` e `README.md` na raiz do repositório `laboratorio-mariri`.
 
-## Teste
-1. Inicie Jornada e escolha um Guia ou escolha Laboratório livre.
-2. Clique em terreno para caminhar imediatamente com as equipes selecionadas.
-3. Clique em criaturas para examinar e confirmar ataques.
-4. Clique em depósitos ⛏️ para minerar com equipes selecionadas.
-5. Em Construções, construa Armazém e Mina produtiva.
-6. Abra baús em Recompensas e use tokens.
-7. Em Pesquisas, desbloqueie melhorias.
+## Novidades
+- Jornada com um único Guia inicial; outros Guias são obtidos por Baú Épico de Guias.
+- Missões principais sequenciais e conquistas paralelas com baús resgatáveis.
+- Baús de Prata, Ouro, Épico e Diamante; repetição de Guia dá 10 pontos de vínculo.
+- Talentos por Guia em três camadas com efeito no ataque.
+- Construção com cronômetro hh:mm:ss e token de aceleração.
+- Enfermaria com tempo de recuperação e token próprio.
+- Marcadores de equipe exibem número de combatentes e barra de Vitalidade do Guia.
+- Recursos abundantes no modo laboratório; regras de capacidade preservadas.
 
-Os 100.000 de Luz, Mariri e Chacrona são exclusivos deste laboratório. Salvamento separado em localStorage. V7 e jogo principal preservados.
+## Testes recomendados
+1. Reiniciar V9 e escolher Jornada.
+2. Confirmar apenas um Guia disponível.
+3. Completar e resgatar missões/conquistas, abrir Baú Épico.
+4. Verificar recrutamento e duplicata (+10 pontos de vínculo).
+5. Distribuir talentos e observar poder por ciclo.
+6. Construir, acelerar e recuperar na Enfermaria.
 
-Esta versão é um protótipo experimental, com visual simplificado e economia sujeita a ajustes.
+Os números e probabilidades ainda são de laboratório e devem ser balanceados antes de publicação definitiva.
