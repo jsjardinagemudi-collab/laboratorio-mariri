@@ -1,20 +1,28 @@
-# A Luz do Mariri — Laboratório V3
+# A Luz do Mariri — Laboratório V4
 
-Protótipo independente para testar equipes múltiplas, exploração com névoa e combate cooperativo.
+Protótipo independente para testes de equipes simultâneas, exploração e combate cooperativo no mapa.
 
-## Publicar no GitHub Pages
+## Como publicar
 
-Substitua `index.html` e `README.md` na raiz do repositório `laboratorio-mariri` e confirme as alterações (Commit changes). Não altere o site principal da JS Jardinagem.
+Substitua `index.html` e `README.md` na raiz do repositório `laboratorio-mariri` do GitHub. Mantenha o GitHub Pages apontado para a branch `main` e pasta `/ (root)`.
 
 ## Como testar
 
-1. Selecione uma equipe em **Equipes**. Clique em uma área para caminhar; revelar a névoa é gratuito.
-2. Clique em uma criatura visível. O menu oferece **Ir até aqui**, **Atacar** e **Explorar** (ficha da criatura).
-3. Ataques básicos são automáticos após a ordem Atacar. A defesa é automática; não existe botão Defender.
-4. Em **Escolas**, forme aprendizes. Em **Equipes**, configure o Guia e quantidades por elemento.
-5. Evolua a Casa do Instituto para liberar até cinco equipes simultâneas. Selecione outra equipe para cooperar contra a mesma criatura.
-6. Em **Batalhas**, acompanhe encontros e ative Poder Supremo manualmente ou habilite o automático.
+1. Abra o jogo, selecione a equipe e clique no mapa para explorar a névoa.
+2. Clique numa criatura revelada: **Ir até aqui**, **Atacar** ou **Explorar**.
+3. Em **Equipes**, monte novas equipes quando o nível do Instituto permitir. Aprendizes são formados nas **Escolas**.
+4. Em **Batalhas**, acompanhe o dano do Guia e dos aprendizes e use o Supremo quando a Harmonia chegar a 100.
+5. Envie outra equipe para o mesmo alvo para testar a cooperação.
 
-## Limitações de laboratório
+## Regras do laboratório
 
-O combate usa valores simplificados para validação; os visuais e árvores de talentos completas serão evoluídos posteriormente. A IA de criaturas é inicial e o mapa usa uma grade de teste. O progresso é salvo no navegador em uma chave exclusiva da V3, sem importar nem alterar a V1, V2 ou V6/V7.
+- Não existe botão Defender. A defesa e as habilidades comuns são automáticas.
+- O Poder Supremo é manual por padrão, com opção automática.
+- Cada equipe tem um Guia e aprendizes por elemento. A capacidade cresce com o nível do Guia.
+- O Instituto libera até cinco equipes ao longo dos seus níveis.
+- O deslocamento e a revelação da névoa não consomem Chacrona.
+- Salvamento automático no navegador em uma chave exclusiva da V4.
+
+## Limitações
+
+Balanceamento e IA simplificados; combate ocorre por ciclos de simulação, sem animação de personagens ou pathfinding com obstáculos. Este é um laboratório de mecânicas, não a versão V6/V7 do jogo principal.
