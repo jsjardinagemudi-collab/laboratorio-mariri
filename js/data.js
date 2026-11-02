@@ -1,0 +1,23 @@
+// Dados originais V11. Nomes, custos e poderes preservados.
+const CHARS=[['Aranyaka',0,'Guardião',12],['Tarek',0,'Guardião',14],['Gaia',0,'Restaurador',10],['Koru',0,'Visionário',12],['Amani',1,'Restaurador',11],['Nayara',1,'Guardião',12],['Mira',1,'Harmonizador',12],['Ondina',1,'Restaurador',11],['Agni',2,'Transformador',18],['Kael',2,'Transformador',17],['Solara',2,'Inspirador',13],['Pyra',2,'Transformador',16],['Shanti',3,'Harmonizador',12],['Aeris',3,'Transformador',15],['Zephyra',3,'Visionário',13],['Suri',3,'Inspirador',12]];
+const FOES=[['Brumito','🌪️',10,160,7,'Foco'],['Fagulhino','🔥',12,260,10,'Calma'],['Gotejante','💧',14,360,12,'Confiança'],['Pedrulho','🪨',18,650,14,'Flexibilidade'],['Sussurrante','🌫️',20,1100,16,'Clareza'],['Brasante','🔥',25,1700,19,'Autocontrole'],['Redemoinho','🌪️',30,3200,22,'Paciência'],['Fera das Brasas','🐉',35,5400,25,'Serenidade'],['Arauto das Tempestades','⛈️',40,7800,27,'Clareza'],['Titã das Raízes','🌳',45,10500,29,'Flexibilidade'],['Turbilhão da Inquietação','🌀',50,14500,32,'Serenidade']];
+const GUIDE_LORE=[
+['Guardião supremo','Proteção coletiva e resistência','Fortaleza Ancestral','Ergue uma barreira de raízes que protege aliados próximos.','Defesa de equipes e exploração de áreas perigosas'],
+['Minerador','Mineração e resistência','Muralha Inabalável','Cria uma barreira mineral e reduz o impacto recebido.','Minas e proteção de trabalhadores'],
+['Cultivadora','Plantações e apoio','Florescimento da Vida','Revigora aliados e favorece o cuidado das plantações.','Produção e recuperação'],
+['Explorador mineral','Cristais e descobertas','Coração da Montanha','Revela depósitos e fortalece a equipe com energia mineral.','Busca de cristais e reconhecimento'],
+['Guardiã suprema','Restauração e suporte','Fonte da Harmonia','Recupera a Vitalidade e fortalece a Harmonia dos aliados.','Expedições longas e apoio'],
+['Exploradora fluvial','Travessia e proteção','Maré Protetora','Uma corrente envolve a equipe e atenua impactos.','Rios e expedições'],
+['Harmonizadora','Serenidade e controle','Véu da Serenidade','Diminui temporariamente a intensidade das ações hostis.','Controle de criaturas e apoio'],
+['Cultivadora das águas','Irrigação e coleta','Chuva Restauradora','Revigora aliados e melhora tarefas ligadas à água.','Plantações e recuperação'],
+['Guardião supremo','Iniciativa e transformação','Chama da Transformação','Concentra Harmonia para ampliar a ação conjunta.','Liderança em confrontos'],
+['Protetor','Coragem e resiliência','Espírito Inabalável','Resiste a efeitos adversos e mantém a equipe firme.','Enfrentamentos prolongados'],
+['Inspiradora','Conhecimento e motivação','Aurora da Esperança','Aumenta a Harmonia e incentiva a cooperação.','Aprendizado e apoio'],
+['Artesã','Fabricação e ferramentas','Forja da Renovação','Melhora temporariamente a eficiência do trabalho artesanal.','Oficina e construção'],
+['Guardião supremo','Paz e controle','Paz Absoluta','Interrompe brevemente criaturas comuns e atrasa ações de chefes.','Controle em batalhas cooperativas'],
+['Batedora','Velocidade e reconhecimento','Dança das Correntes','Aumenta deslocamento e agilidade da equipe.','Exploração rápida'],
+['Visionária','Percepção e descobertas','Olhar do Horizonte','Amplia a capacidade de identificar caminhos e ameaças.','Revelar a névoa'],
+['Mentora','Sabedoria e cooperação','Voz da Sabedoria','Fortalece a concentração e o trabalho em equipe.','Formação e pesquisa']];
+const ELEMENTS=['🌿 Terra','💧 Água','🔥 Fogo','🌬️ Ar'];
+const BUILDINGS={institute:['🏛️','Casa do Instituto',5,4],warehouse:['📦','Armazém',3,5],mineBuilding:['⛏️','Mina produtiva',2,6],workshop:['⚒️','Oficina dos Artesãos',8,5],hospital:['🏥','Enfermaria',2,2],knowledge:['📚','Centro de Conhecimento',8,2],mariri:['🌿','Plantação de Mariri',1,7],chacrona:['🍃','Plantação de Chacrona',9,7]};
+const TREE=[['Fundamentos do Instituto','foundation',null,1,30],['Construção Eficiente','build','foundation',1,60],['Mineração Organizada','mine','foundation',1,75],['Logística de Armazenagem','store','foundation',2,90],['Caminhos da Expedição','travel','foundation',2,110],['Planejamento de Obras I','queue2','build',5,150],['Planejamento de Obras II','queue3','queue2',10,240],['Produção Aperfeiçoada','produce','mine',7,180],['Conhecimento Compartilhado','learn','foundation',4,160]];

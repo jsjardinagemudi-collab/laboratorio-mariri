@@ -1,0 +1,110 @@
+{
+  "results": [
+    {
+      "name": "Inicialização livre",
+      "status": "PASS",
+      "detail": "16 Guias disponíveis e dois mapas presentes"
+    },
+    {
+      "name": "Clique pseudoisométrico",
+      "status": "PASS",
+      "detail": "Célula 4,4 corresponde ao terreno visual; custo debitado uma única vez"
+    },
+    {
+      "name": "Construção",
+      "status": "PASS",
+      "detail": "Fila conclui em 30s, ocupa a célula e registra unidade/contador"
+    },
+    {
+      "name": "Produção",
+      "status": "PASS",
+      "detail": "Mariri é creditado no ritmo da simulação"
+    },
+    {
+      "name": "Produção com painel aberto",
+      "status": "PASS",
+      "detail": "Sem crédito duplicado durante pausa de simulação"
+    },
+    {
+      "name": "Formação",
+      "status": "PASS",
+      "detail": "Guia recrutado forma Companhia e é selecionado"
+    },
+    {
+      "name": "Movimentação e névoa",
+      "status": "PASS",
+      "detail": "Equipe chega a 11,7 e revela regiões; ordem não inicia ataque"
+    },
+    {
+      "name": "Combate cooperativo",
+      "status": "PASS",
+      "detail": "Duas equipes atacam o mesmo alvo, reduzem uma resistência compartilhada e exibem barra real"
+    },
+    {
+      "name": "Vitória e recompensas",
+      "status": "PASS",
+      "detail": "Alvo transformado, recompensa e progressão persistidas"
+    },
+    {
+      "name": "Mineração",
+      "status": "PASS",
+      "detail": "Depósito conhecido aceita ordem e produz respeitando capacidade"
+    },
+    {
+      "name": "Pesquisa",
+      "status": "PASS",
+      "detail": "Requisito, custo e cronômetro da árvore tecnológica funcionam"
+    },
+    {
+      "name": "Navegação completa",
+      "status": "PASS",
+      "detail": "Todos os 15 painéis renderizam sem erro"
+    },
+    {
+      "name": "Guias",
+      "status": "PASS",
+      "detail": "16 fichas com retratos e dados originais"
+    },
+    {
+      "name": "Salvamento e recarga",
+      "status": "PASS",
+      "detail": "Instituto, equipes, construções e tecnologias preservados"
+    },
+    {
+      "name": "Migração V11",
+      "status": "PASS",
+      "detail": "Copia a chave histórica sem apagar o save anterior"
+    },
+    {
+      "name": "Backup JSON",
+      "status": "PASS",
+      "detail": "Arquivo exportado contém versão e estado completo"
+    },
+    {
+      "name": "Validação de backup",
+      "status": "PASS",
+      "detail": "Importação inválida mantém o progresso existente"
+    },
+    {
+      "name": "Restauração",
+      "status": "PASS",
+      "detail": "Backup válido restaura após confirmação"
+    },
+    {
+      "name": "Responsividade",
+      "status": "PASS",
+      "detail": "390px sem overflow horizontal; navegação e mapa presentes"
+    },
+    {
+      "name": "Preview e Jornada",
+      "status": "PASS",
+      "detail": "HTML autocontido inicia tutorial, escolha de Guia e Companhia no nível inicial"
+    },
+    {
+      "name": "Runtime",
+      "status": "PASS",
+      "detail": "Nenhuma exceção JavaScript"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,7 @@
+Original index(2).html SHA-256: 051a8699cf81fa4a1f29cc7a4aede5d51827df1bb7f0dc6a89d76566829a501b
+CHARS: identical
+FOES: identical
+GUIDE_LORE: identical
+ELEMENTS: identical
+BUILDINGS: identical
+TREE: identical
